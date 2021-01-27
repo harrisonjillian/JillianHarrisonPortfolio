@@ -17,8 +17,8 @@
 <body>
   <div class="container-fluid">
 
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" style="background-color:	mistyrose; ">
 
-    <nav class="navbar navbar-expand-lg " style="background-color:	mistyrose; ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,8 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" style="color: black" href="#about"><b>About</b> <span class="sr-only">(current)</span></a>
+            <a class="nav-link" style="color: black" href="#about"><b>About</b> <span
+                class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color: black" href="#portfolio"><b>Portfolio</b></a>
@@ -37,6 +38,7 @@
           </li>
       </div>
     </nav>
+
 
     <div class="landing">
       <div class="col-lg-12" id="testing">
@@ -79,16 +81,19 @@
 
     <div class="col-lg-12">
       <div class="col-md-4" id="aboutinfo">
+        <h5>LinkedIN</h5>
         <a href="https://www.linkedin.com/in/jillianharrison" class="animation" target="_blank">
           <i class="fab fa-linkedin fa-5x" id="linkedin" style="color:black"></i>
         </a>
       </div>
       <div class="col-md-4" id="aboutinfo">
+        <h5>Resume</h5>
         <a href="Assets/Jill Harrison Resume 2020.docx" class="animation" id="resume">
           <i class="fas fa-file fa-5x" style="color: black;"></i>
         </a>
       </div>
       <div class="col-md-4" id="aboutinfo">
+        <h5>Github</h5>
         <a href="https://github.com/harrisonjillian" class="animation" target="_blank">
           <i class="fab fa-github-square fa-5x" style="color:black"></i>
         </a>
@@ -113,103 +118,128 @@
       <h1 style="font-size: 5vw;">Portfolio</h1>
     </div>
 
-    <div class="col-md-4">
-      <div class="card" style="width: 16rem;">
-        <img src="Assets/storefront.jpg" class="card-img-top" height=200px; width=300px; alt="bakery">
-        <div class="card-body">
-          <a href="https://harrisonjillian.github.io/RegisterPage/" target="_blank" style="color: black" ;
-            class="card-link">View
-            Business
-            Challenge
-            Project</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card" style="width: 16rem;">
-        <img src="Assets/Bumblebee.jpg" class="card-img-top" height=200px; width=300px; alt="bumblebee">
-        <div class="card-body">
-          <a href="https://codepen.io/harrisonjillian/pen/poyyzqM" target="_blank" style="color: black" ;
-            class="card-link">View
-            Creature
-            Layout Project</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card" style="width: 16rem;">
-        <img src="Assets/bakery.jpg" class="card-img-top" height=200px; width=300px; alt="building">
-        <div class="card-body">
-          <a href="https://harrisonjillian.github.io/staticstorefront/" target="_blank" style="color: black" ;
-            class="card-link">View
-            Static Layout Project</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-12">
-      <div class="col-md-6">
-        <div class="card" style="width: 16rem;">
-          <img src="Assets/blue.jpg" class="card-img-top" height=200px; width=300px; alt="bluebox">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Green.jpg" class="card-img-top" alt="businessproject">
           <div class="card-body">
-            <a href="https://github.com/harrisonjillian/Portfolio.git" target="_blank" style="color: black" ;
+            <h5 class="card-title">Red Badge Challenge</h5>
+            <p class="card-text">This challenge was building a .NET Framework MVC 5 Web Application using n-tier
+              architecture. </p>
+          </div>
+          <div class="card-footer">
+            <a href=https://github.com/harrisonjillian/ConsciousConnections.git target="_blank" style="color: black" ;
+              class="card-link">View
+              Red
+              Challenge
+              Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/teambuilding.jpg" class="card-img-top" alt="teambuildingphoto">
+          <div class="card-body">
+            <h5 class="card-title">Blue Badge Challenge</h5>
+            <p class="card-text">This challenge was a team building assignment building a .NET Framework API Web
+              Application using n-tier architecture.</p>
+          </div>
+          <div class="card-footer">
+            <a href=https://github.com/karraspierce09/SaveTheWorld.git target="_blank" style="color: black" ;
               class="card-link">View Blue Badge Challenge Project</a>
           </div>
         </div>
       </div>
-
-      <div class="col-md-6">
-        <div class="card" style="width: 16rem;">
-          <img src="Assets/red.jpg" class="card-img-top" height=200px; width=300px; alt="redbox">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/bakery2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Coming Soon-Red Badge Project!</p>
+            <h5 class="card-title">Static Store Front Assigment</h5>
+            <p class="card-text">The Static Store Front assigment uses both HTML and CSS to build a storefront.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://harrisonjillian.github.io/staticstorefront/" target="_blank" style="color: black" ;
+              class="card-link">View
+              Static Store Front Project</a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="col-lg-12" id="contact">
-      <h1 style="font-size: 5vw;">Contact</h1>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" id="test">
+      <div class="card h-100">
+        <img src="Assets/workhard.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Registration Page Assigment</h5>
+          <p class="card-text"> The Registration Page was an assigment where we were given an image and asked to
+            recreate the page Using HTML & CSS.</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://harrisonjillian.github.io/RegisterPage/" target="_blank" style="color: black" ;
+            class="card-link">View
+            Registration Page Project</a>
+        </div>
+      </div>
     </div>
 
-    <div class="col-lg-4 offset-lg-4">
-      <form action="https://formspree.io/mbjzobjd" method="POST">
-        <div class="form-group ">
-          <label for="inputName">Name</label>
-          <input type="text" name="name" class="form-control" id="inputName">
+    <div class="col" id="test2">
+      <div class="card h-100">
+        <img src="Assets/bee.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CSS Creature Project</h5>
+          <p class="card-text">For this Creature Project we used Codepen to create a creatue utlizing both HTML & CSS.
+          </p>
         </div>
-
-        <div class="form-group">
-          <label for="inputEmail">Email</label>
-          <input type="text" name="_replyto" class="form-control" id="inputEmail">
+        <div class="card-footer">
+          <a href="https://codepen.io/harrisonjillian/pen/poyyzqM" target="_blank" style="color: black" ;
+            class="card-link">View
+            CSS Creature Project</a>
         </div>
-        <div class="form-group">
-          <label for="inputPhone">Phone</label>
-          <input type="text" name="phone" class="form-control" id="inputPhone">
-        </div>
-        <div class="form-group">
-          <label for="inputMessage">Input Message</label>
-          <textarea class="form-control" name="message" id="inputMessage" rows="3"></textarea>
-        </div>
-        <div class="form-group">
-          <label for="inputSubmit">Submit</label>
-          <input type="submit" class="form-control" id="inputSubmit" value="Send">
-         
-      </form>
+      </div>
     </div>
   </div>
+</div>
 
+  <div class="col-lg-12" id="contact">
+    <h1 style="font-size: 5vw;">Contact</h1>
+  </div>
 
-    <footer class="footer footer-expand-lg " >
-      <div class="col-lg-12" style="background-color: black;" >
-        <span style="color: white">&copy;2020, Jillian Harrison</span>
-        <ul id="menuFooter">
-          <li><a href="#about">All Rights Reserved</a></li>
-        </ul>
+  <div class="col-lg-4 offset-lg-4">
+    <form action="https://formspree.io/mbjzobjd" method="POST">
+      <div class="form-group ">
+        <label for="inputName">Name</label>
+        <input type="text" name="name" class="form-control" id="inputName">
       </div>
-    </footer>
+
+      <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="text" name="_replyto" class="form-control" id="inputEmail">
+      </div>
+      <div class="form-group">
+        <label for="inputPhone">Phone</label>
+        <input type="text" name="phone" class="form-control" id="inputPhone">
+      </div>
+      <div class="form-group">
+        <label for="inputMessage">Input Message</label>
+        <textarea class="form-control" name="message" id="inputMessage" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="inputSubmit">Submit</label>
+        <input type="submit" class="form-control" id="inputSubmit" value="Send">
+
+    </form>
+  </div>
+  </div>
+
+  <footer class="footer footer-expand-lg ">
+    <div class="col-lg-12" style="background-color: black;">
+      <span style="color: white">&copy;2020, Jillian Harrison</span>
+      <ul id="menuFooter">
+        <li><a href="#about">All Rights Reserved</a></li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
 
